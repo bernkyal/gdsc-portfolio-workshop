@@ -25,7 +25,7 @@ export default function Intro() {
           letterSpacing={{ sm: '-1.2px', md: '-1.8px' }}
           position="relative"
         >
-          <Box color="displayColor" as="span">Your Name</Box>
+          <Box color="displayColor" as="span">Bernard Kyaluzi</Box>
           .
         </Heading>
       </SlideFade>
@@ -36,7 +36,7 @@ export default function Intro() {
       >
         <Box w={['85vw', '40vw']}>
         <Text fontSize="display3" color="textSecondary">
-          Some description about yourself. Lorem ipsum and all that good stuff. Some more waffle to fill up the space.
+          Some description about yourself. I like dogs. Some more waffle to fill up the space.
         </Text>
         </Box>
       </SlideFade>
@@ -46,7 +46,7 @@ export default function Intro() {
         transition={{ enter: { duration: 0.4, delay: 1.0 } }}
       >
         <Stack isInline spacing={4}>
-          <Link href="https://github.com/" isExternal>
+          <Link href="https://github.com/bernkyal" isExternal>
             <Button
               leftIcon={<FaGithub color="#5F99FF" />}
               position="static"

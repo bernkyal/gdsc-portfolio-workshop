@@ -17,7 +17,7 @@ export default function Navbar() {
           color="displayColor"
           fontWeight="bold"
           fontSize="32px">
-          <Bracket>&#123;</Bracket>GDSC<Bracket>&#125;</Bracket>
+          <Bracket>&#123;</Bracket>BNK<Bracket>&#125;</Bracket>
         </Text>
       </Box>
       <Spacer />
@@ -27,7 +27,7 @@ export default function Navbar() {
             Home
           </Button>
         </NextLink>
-        <NextLink href="/todo!" passHref>
+        <NextLink href="Bernard Kyaluzi CV.pdf" passHref>
           <Button as="a" variant="ghost" p="4" ml="3vw" fontSize="16px" color="textSecondary">
             CV
           </Button>
